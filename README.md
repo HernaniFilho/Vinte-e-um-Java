@@ -1,22 +1,10 @@
 ## Projeto em Java Vinte-e-um
-    Projeto de aprendizagem para a criação de um jogo (software) utilizando Java Swing
-    Baseado no video https://www.youtube.com/watch?v=GMdgjaDdOjI
+Projeto de aprendizagem para a criação de um jogo (software) utilizando Java Swing
+Baseado no video https://www.youtube.com/watch?v=GMdgjaDdOjI
 
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Para rodar o projeto você precisará de uma IDE Java para rodar App.java. 
+Você pode também utilizar o VSCode para isto, basta seguir as intruções em https://code.visualstudio.com/docs/java/java-tutorial.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
