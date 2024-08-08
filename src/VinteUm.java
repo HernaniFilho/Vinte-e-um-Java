@@ -96,14 +96,20 @@ public class VinteUm {
                     System.out.println("Jogador: " + jogadorSoma);
 
                     String message = "";
-                    if (jogadorSoma > 21 || jogadorSoma < dealerSoma) {
+                    if (jogadorSoma > 21) {
                         message = "Você perdeu!";
                     }
-                    else if (dealerSoma > 21 || jogadorSoma > dealerSoma) {
+                    else if (dealerSoma > 21) {
                         message = "Você ganhou!";
                     }
                     else if (jogadorSoma == dealerSoma) {
                         message = "Empate!";
+                    }
+                    else if (jogadorSoma < dealerSoma) {
+                        message = "Você Perdeu";
+                    }
+                    else if (jogadorSoma > dealerSoma) {
+                        message = "Você ganhou!";
                     }
 
                     g.setFont(new Font("Arial", Font.PLAIN, 30));
