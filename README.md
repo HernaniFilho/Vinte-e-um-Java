@@ -1,3 +1,6 @@
+## Projeto em Java Vinte-e-um
+    Projeto de aprendizagem para a criação de um jogo (software) utilizando Java Swing
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
