@@ -106,7 +106,7 @@ public class VinteUm {
                         message = "Empate!";
                     }
                     else if (jogadorSoma < dealerSoma) {
-                        message = "Você Perdeu";
+                        message = "Você perdeu!";
                     }
                     else if (jogadorSoma > dealerSoma) {
                         message = "Você ganhou!";
