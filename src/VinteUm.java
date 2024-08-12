@@ -125,7 +125,7 @@ public class VinteUm {
     JPanel painelBotoes = new JPanel();
     JButton botaoComprar = new JButton("Comprar");
     JButton botaoParar = new JButton("Parar");
-    JButton botaorecomecar = new JButton("Recomeçar");
+    JButton botaoRecomecar = new JButton("Recomeçar");
 
     VinteUm() {
         iniciarJogo();
@@ -143,11 +143,11 @@ public class VinteUm {
 
         botaoComprar.setFocusable(false);
         botaoParar.setFocusable(false);
-        botaorecomecar.setFocusable(false);
+        botaoRecomecar.setFocusable(false);
 
         painelBotoes.add(botaoComprar);
         painelBotoes.add(botaoParar);
-        painelBotoes.add(botaorecomecar);
+        painelBotoes.add(botaoRecomecar);
         janelaJogo.add(painelBotoes, BorderLayout.SOUTH);
 
 
@@ -188,7 +188,7 @@ public class VinteUm {
             }
         });
 
-        botaorecomecar.addActionListener(new ActionListener() {
+        botaoRecomecar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 botaoComprar.setEnabled(false);
                 botaoParar.setEnabled(false);
